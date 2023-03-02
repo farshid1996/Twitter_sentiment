@@ -61,6 +61,7 @@
 # Uploading model training logs to Tensorboard.dev
   Tensorboard shows all model vectors in one place.
   For this models all scores are in this link[https://tensorboard.dev/experiment/ZqenNRJjQhGEbBGHvrZNhQ/].
+  
   The scores are :`epoch_accuracy`, `epoch_loss`, `evaluation_accuracy_vs_iterations`, `evaluation_loss_vs_iterations`.
 
 # Making predictions on the test dataset
