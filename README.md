@@ -18,4 +18,17 @@ To create the Embedding layer, the Embedding function from tensorflow layers has
 # Models
 To get the base evaluation, the MultinomialNB from sklearn.naive_bayes is good. 
 
-## 
+# Creating an evaluation function for our model experiments
+In this section, the function shows `accuracy`, `precision`, `recall`,and 'f1' scores.
+
+# Model 1: A simple dense model
+Model 1 is simple model with GlobalAveragePooling1D and a Dense layer.
+![Screenshot (18)](https://user-images.githubusercontent.com/63876585/222383923-4b4720e1-daad-4d65-9e85-6bda360e30dc.png)
+
+## compare_baseline_to_new_results
+This function helps to compare two models results.
+
+# Visualizing learned embeddings
+First, pulling out an Embedding layer from the Model 1 layers.
+Secondly, Download the `vector.tsv`, 'metadata.tsv'. 
+Finally, upload those file in tensorflow projection 
